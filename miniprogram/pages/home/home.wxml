@@ -1,0 +1,70 @@
+<!--pages/home/home.wxml-->
+<view class='banner'>
+	<swiper class="swiper_main" indicator-dots="true" autoplay interval="6000" circular>
+		<block wx:for="{{imglist}}">
+			<swiper-item>
+				<image style="width: 100%;height: 500rpx;" mode="scaleToFill" src="{{item.photo}}"></image>
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+<view class="news">
+	<view class="news_left" bindtap="gg">
+		<image src="../../images/公告_announcement.png"></image>
+		<view class="news_title" id='1' bindtap="gg">
+			【公告】
+		</view>
+	</view>
+	<view class="news_right">
+		<swiper class="swiper-news-top" vertical="true" autoplay="true" circular="true" interval="3000">
+			<block wx:for="{{msgList}}">
+				<navigator url="../news/news?text_id={{item._id}}" open-type="navigate">
+					<swiper-item>
+						<view class="swiper_item">{{item.title}}</view>
+					</swiper-item>
+				</navigator>
+			</block>
+		</swiper>
+	</view>
+</view>
+<view class="button_main">
+	<view class="button-item" id='2' bindtap="signin">
+		<view class='button-item-img'>
+			<image src="../../images/sign-in.png"></image>
+		</view>
+		<view class="button-item-text">志愿打卡</view>
+	</view> 
+	<view class="button-item" id='3' bindtap="activity">
+		<view class='button-item-img'>
+			<image src="../../images/activity.png"></image>
+		</view>
+		<view class="button-item-text">志愿活动</view>
+	</view> 
+	<view class="button-item" id='4' bindtap="ranking">
+		<view class='button-item-img'>
+			<image src="../../images/ranking.png"></image>
+		</view>
+		<view class="button-item-text">志愿排行</view>
+	</view> 
+</view>
+<view class="activity-bar">
+	<view class="activity-bar-title">
+		志愿活动
+	</view>
+	<view class="activity-bar-box" wx:for="{{activity}}" wx:for-item="item" wx:key="_id" bindtap="zyhd" id="{{item._id}}" wx:if="{{index<10}}">
+		<view class="activity-box-img">
+			<image src="{{item.activity_photo}}"></image>
+		</view>
+		<view class="activity-box-text">
+			<view class="activity-box-text-title">
+				{{item.activity_title}}
+			</view>
+			<view class="activity-box-text-remaining-places">
+				剩余名额：{{item.remaining_places}}
+			</view>
+			<view class="activity-box-text-time">
+				{{item.deadline}} 报名截止
+			</view>
+		</view>
+	</view>
+</view>
