@@ -1,0 +1,20 @@
+<!--pages/activity_list/activity_list.wxml-->
+<view class="activity-bar">
+	<view class="activity-bar-box" wx:for="{{activity}}" wx:for-item="item" wx:key="_id" bindtap="zyhd" id="{{item._id}}" wx:if="{{index<10}}">
+		<view class="activity-box-img">
+			<image src="{{item.activity_photo}}"></image>
+		</view>
+		<view class="activity-box-text">
+			<view class="activity-box-text-title">
+				{{item.activity_title}}
+			</view>
+			<view class="activity-box-text-remaining-places">
+				剩余名额：{{item.remaining_places}}
+			</view>
+			<view class="activity-box-text-time">
+				{{item.deadline}} 报名截止
+			</view>
+		</view>
+	</view>
+</view>
+

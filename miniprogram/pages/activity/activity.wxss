@@ -1,0 +1,101 @@
+page{
+	background-color: rgb(255, 237, 249);
+}
+.activity-photo{
+	width: 100%;
+	height:500rpx;
+}
+.activity_title{
+	width: 100%;
+	height: 150rpx;
+}
+.activity-title1{
+	text-align: center;
+	margin-top: 20rpx;
+	line-height: 70rpx;
+	font-weight: 700;
+	font-size: 45rpx;
+	color: rgb(198,165,233);
+}
+.activity-title2{
+	text-align: center;
+	margin-top: 10rpx;
+	line-height: 50rpx;
+	font-weight: 500;
+	font-size: 25rpx;
+	color: rgb(209, 203, 214);
+}
+.activity_main{
+	width: 94%;
+	margin: 5rpx auto;
+	margin-bottom: 25rpx;
+	padding-left: 4rpx;
+	padding-right: 4rpx;
+}
+.activity-proile{
+	text-indent: 74rpx;
+	text-align: left;
+	font-size: 37rpx;
+	letter-spacing: 2rpx;
+	line-height: 65rpx;
+	padding: 4rpx;
+	min-height: 200rpx;
+	color: rgb(198,165,233);
+}
+.activity-condition{
+	text-indent: 80rpx;
+	text-align: left;
+	font-size: 37rpx;
+	letter-spacing: 2rpx;
+	line-height: 65rpx;
+	padding: 7rpx;
+	min-height: 65rpx;
+	color: rgb(198,165,233);
+	font-weight: 550;
+}
+.main{
+	width: 90%;
+	margin: 10rpx auto;
+	border-bottom: 1rpx solid rgb(198,165,233);
+	padding-bottom: 20rpx ;
+}
+.logo{
+	float: left;
+	width: 9%;
+	height: 50rpx;
+}
+.logo image{
+	width: 50rpx;
+	height: 50rpx;
+	float: left;
+	padding-left: 15rpx;
+}
+.title{
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 32rpx;
+	color: rgb(198,165,233);
+	float: left;
+	padding-left: 15rpx;
+}
+.text{
+	width: 45%;
+	min-height: 50rpx;
+	float: right;
+	text-align: right;
+	color: rgb(198,165,233);
+	font-size: 32rpx;
+	line-height: 50rpx;
+	padding-right: 20rpx;
+}
+.application{
+	height: 90rpx;
+	width: 40%;
+	margin: 50rpx auto;
+	line-height: 90rpx;
+	text-align: center;
+	border-radius: 10rpx;
+	box-shadow: 0 0 20px rgb(198 165 233 /20%);
+	border: 1rpx solid rgb(198,165,233);
+	color: rgb(198,165,233);
+}

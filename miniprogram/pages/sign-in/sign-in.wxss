@@ -1,0 +1,114 @@
+/* pages/sign-in/sign-in.wxss */
+.bj{
+  width: 100%;
+  height: 100vh;
+}
+.bj image{
+  width: 100%;
+  height: 100%;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  margin-top: -100vh;
+}
+.mian_box{
+  width: 80%;
+  height: 48vh;
+  margin: 0 auto;
+	margin-top: 15vh;
+}
+.bar{
+	width: 600rpx;
+	margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	align-items: center;
+}
+.barnum {
+	width: 80%;
+	margin: auto;
+	height: 6vh;
+  line-height:6vh;
+  font-size: 37rpx;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5rpx;
+  white-space: nowrap;
+	color: rgb(198,165,233);
+}
+.bar > canvas {
+  width: 600rpx;
+	height: 100rpx;  
+  justify-content: center;
+	align-items: center;
+}
+.qrcode {
+  height: 32vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+	align-items: center;
+	margin: auto;
+	margin-top: -2vh;
+}
+.qrcode > canvas {
+  width: 380rpx;
+  height: 380rpx;
+}
+.tx{
+  width:100%;
+	height: 40rpx;
+	line-height: 40rpx;
+  text-align: center;
+  font-size: 25rpx;
+	color: rgb(209, 203, 214);
+	margin-top: -25rpx;
+}
+.userinfo{
+  width: 80%;
+  height: 7vh;
+	margin: 3.5vh auto;
+}
+.userlogo{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  margin: 0 30rpx;
+  float: left;
+}
+.userlogo image{
+  width: 100%;
+  height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 1rpx solid rgb(198,165,233);
+}
+.user-text{
+  width: 250rpx;
+  float: left;
+  height: 100%;
+  line-height: 7vh;
+	margin-left: 20rpx;
+	color: rgb(198,165,233);
+}
+.qr{
+  width: 120rpx;
+  height: 200rpx;
+  margin: 80rpx auto;
+  margin-bottom: 0;
+}
+.qr_zr{
+  width: 120rpx;
+  height: 120rpx;
+}
+.qr image{
+  width: 100%;
+  height: 100%;
+}
+.qr_zrtext{
+  text-align: center;
+  line-height: 80rpx;
+  color: rgb(198,165,233);
+}

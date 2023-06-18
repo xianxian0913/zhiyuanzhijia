@@ -1,0 +1,12 @@
+<!--pages/regard/regard.wxml-->
+<view class="regard_main" >
+	<view class="regard_text">志愿之家微信小程序应用于湖南工商大学的日常志愿活动管理中，是一个志愿服务综合应用平台，为本校志愿活动管理插上科技化的翅膀，提供志愿者登录、志愿活动报名、发布、志愿时长统计、志愿动态分享等功能。本小程序致力于将校内资源进行充分链接和整合，不断提升志愿活动的质量与效率，构建起一个线上互联，线下互动的志愿服务平台，实现志愿活动管理便捷化与工作运行高效化。</view>
+	<view class="regard_address">
+		<view class="regard_address_title">联系地址：</view>
+		<view class="regard_address_text">湖南工商大学萃雅学生公寓一栋524寝室或609寝室</view>
+	</view>
+	<view class="regard_mail">
+		<view class="regard_mail_title">开发者邮箱：</view>
+		<view class="regard_mail_text">2906577873@qq.com</view>
+	</view>
+</view>

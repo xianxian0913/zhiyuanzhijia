@@ -1,0 +1,29 @@
+<!--pages/sign-in/sign-in.wxml-->
+<view class="bj">
+  <image src="../../images/person.jpg"></image>
+</view>
+<view class="main">
+	<view class="mian_box">
+		<view class="bar">
+			<view class="barnum">{{code_id}}</view>
+			<canvas canvas-id="barcode"></canvas>
+		</view>
+		<view class="qrcode">
+			<canvas canvas-id="qrcode"></canvas>
+		</view>
+		<view class="tx">用户认证二维码，请不要提供给他人！</view>
+	</view>
+	<view class="userinfo">
+		<view class="userlogo">
+			<image src="{{user.portrait}}"></image>
+		</view>
+		<view class="user-text">{{user.name}}</view>
+	</view>
+	<view class="qr" bindtap="openqr">
+		<view class="qr_zr">
+			<image src="../../images/scan-code.png"></image>
+		</view>
+		<view class="qr_zrtext">扫一扫</view>
+	</view>
+</view>
+

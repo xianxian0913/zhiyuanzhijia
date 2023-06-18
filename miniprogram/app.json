@@ -1,0 +1,67 @@
+{
+	"pages": [
+		"pages/home/home",
+		"pages/modify_password/modify_password",
+		"pages/setup/setup",
+		"pages/calendar/calendar",
+		"pages/calendar_home/calendar_home",
+		"pages/dynamic/dynamic",
+		"pages/me/me",
+		"pages/activity/activity",
+		"pages/news/news",
+		"pages/news_list/news_list",
+		"pages/login/login",
+		"pages/contact/contact",
+		"pages/regard/regard",
+		"pages/activity_list/activity_list",
+		"pages/activity_ranking/activity_ranking",
+		"pages/sign-in/sign-in",
+		"pages/add_dynamic/add_dynamic",
+		"pages/dynamic_xq/dynamic_xq",
+		"pages/modify_profile/modify_profile",
+		"pages/my_dynamic/my_dynamic",
+		"pages/activity_history/activity_history",
+		"pages/activity_manage/activity_manage",
+		"pages/modify_activity/modify_activity",
+		"pages/news_manage/news_manage",
+		"pages/modify_news/modify_news",
+		"pages/add_news/add_news",
+		"pages/add_activity/add_activity",
+		"pages/manage_signin/manage_signin"
+	],
+	"window": {
+		"navigationBarBackgroundColor": "#c6a5e9"
+	},
+	"sitemapLocation": "sitemap.json",
+	"style": "v2",
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "志愿之家",
+				"iconPath": "/images/home.png",
+				"selectedIconPath": "/images/home_selected.png"
+			},
+			{
+				"pagePath": "pages/calendar/calendar",
+				"text": "活动日历",
+				"iconPath": "/images/calendar.png",
+				"selectedIconPath": "/images/calendar_selected.png"
+			},
+			{
+				"pagePath": "pages/dynamic/dynamic",
+				"text": "志愿动态",
+				"iconPath": "/images/dynamic.png",
+				"selectedIconPath": "/images/dynamic_selected.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "个人中心",
+				"iconPath": "/images/me.png",
+				"selectedIconPath": "/images/me_selected.png"
+			}
+		],
+		"color": "#c6a5e9",
+		"selectedColor": "#e9a5bf"
+	}
+}

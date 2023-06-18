@@ -1,0 +1,70 @@
+/* pages/activity_list/activity_list.wxss */
+page{
+	background-color: rgb(255, 237, 249);
+}
+.activity-bar{
+	width: 100%;
+	min-height: 300rpx;
+	background-color: rgb(255, 237, 249);
+}
+.activity-bar-title{
+	width: 100%;
+	height: 70rpx;
+	line-height: 70rpx;
+	padding-left: 20rpx;
+	font-weight: 700;
+	font-size: 35rpx;
+	border-left: 10rpx solid rgb(198,165,233);
+	color: rgb(198,165,233);
+	background-color: rgb(255, 237, 249);
+	letter-spacing: 2rpx;
+}
+.activity-bar-box{
+	width: 95%;
+	height: 220rpx;
+	margin: 20rpx auto;
+	background-color: white;
+	border: 1rpx solid rgb(198,165,233);
+}
+.activity-box-img{
+	width: 40%;
+	height: 220rpx;
+	float: left;
+}
+.activity-box-img image{
+	width: 100%;
+	height: 100%;
+}
+.activity-box-text{
+	width: 57%;
+	height: 220rpx;
+	float: left;
+	padding-left: 3%;
+}
+.activity-box-text-title{
+	width: 100%;
+	height: 40%;
+	line-height: 88rpx;
+	font-weight: 700;
+	font-size: 36rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: rgb(198,165,233);
+}
+.activity-box-text-remaining-places{
+	width: 100%;
+	height: 20%;
+	margin-top: 36rpx;
+	font-size: 28rpx;
+	line-height: 44rpx;
+	color: rgb(198,165,233);
+}
+.activity-box-text-time{
+	width: 100%;
+	height: 20%;
+	margin-top: 8rpx;
+	font-size: 28rpx;
+	line-height: 44rpx;
+	color: rgb(198,165,233);
+}
