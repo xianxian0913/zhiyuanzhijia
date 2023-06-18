@@ -1,0 +1,16 @@
+<view class="login_top">
+	<view class="login_top_logo">
+		<image src="cloud://cloud1-0gpq257u72fa6603.636c-cloud1-0gpq257u72fa6603-1317059074/images/logo1.jpg" mode="aspectFit"></image>
+	</view>
+	<view class="login_top_text">
+		<view class="login_top_text1">你好，志愿者</view>
+		<view class="login_top_text1">欢迎登录</view>
+	</view>
+</view>
+<input class="inputInfo" type="number" placeholder="请输入学号" bindinput="getId"></input>
+<input class="inputInfo" type="text" password="true" placeholder="请输入密码" bindinput="getPassword"></input>
+<view class="login" bindtap="login">登录</view>
+
+<view class="forget">
+	忘记密码
+</view>

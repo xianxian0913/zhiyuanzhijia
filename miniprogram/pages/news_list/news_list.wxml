@@ -1,0 +1,11 @@
+<!--pages/news_list/news_list.wxml-->
+<view class="news-bar-box" wx:for="{{news}}" wx:for-item="item" wx:key="_id" bindtap="tzgg" id="{{item._id}}">
+	<view class="news-box-text">
+		<view class="news-box-text-title">
+			{{item.title}}
+		</view>
+		<view class="news-box-text-time">
+			发布时间：{{item._createTime}}
+		</view>
+	</view>
+</view>
