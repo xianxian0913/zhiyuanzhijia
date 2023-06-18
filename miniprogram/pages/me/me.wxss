@@ -1,0 +1,246 @@
+page{
+	background-color: rgb(255, 237, 249);
+}
+.my_logo{
+	width:95%;
+	height:220rpx;
+	margin: 35rpx;
+	margin-left: 20rpx;
+}
+.my_logo_portrait{
+	width:180rpx;
+	height: 180rpx;
+	float: left;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: 20rpx;
+	margin-left: 60rpx;
+	border: 1rpx solid rgb(198,165,233);
+}
+.my_logo_text{
+	float: left;
+	height: 180rpx;
+	margin-top: 25rpx;
+	margin-left: 45rpx;
+	width: 360rpx;
+}
+.name_logo{
+	float: left;
+	width: 17%;
+	height: 60rpx;
+}
+.name_logo image{
+	width: 50rpx;
+	height: 50rpx;
+	float: left;
+	padding-left: 5rpx;
+	padding-top: 3rpx;
+}
+.my_logo_name{
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 35rpx;
+	letter-spacing: 10rpx;
+	font-weight: 600;
+	color: rgb(198,165,233);
+	padding-left: 75rpx;
+}
+.telephone_logo{
+	float: left;
+	width: 17%;
+	height: 60rpx;
+}
+.telephone_logo image{
+	width: 50rpx;
+	height: 50rpx;
+	float: left;
+	padding-left: 5rpx;
+	padding-top: 15rpx;
+}
+.my_logo_telephone{
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 30rpx;
+	color: rgb(198,165,233);
+	padding-left: 68rpx;
+	margin-top: 12rpx;
+}
+.profile_logo{
+	float: left;
+	width: 17%;
+	height: 60rpx;
+}
+.profile_logo image{
+	width: 50rpx;
+	height: 50rpx;
+	float: left;
+	padding-left: 5rpx;
+	padding-top: 4rpx;
+}
+.my_logo_profile{
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 30rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	letter-spacing: 1rpx;
+	text-align: left;
+	color: rgb(198,165,233);
+	padding-left: 8rpx;
+}
+.my_activity{
+	width: 92%;
+	min-height: 400rpx;
+	background-color: white;
+	margin: 20rpx auto;
+	margin-top: 10rpx;
+	border-radius: 10rpx;
+	box-shadow: 0 0 20px rgb(198 165 233 /20%);
+	padding-bottom: 30rpx;
+}
+.my_activity_today{
+	width: 92%;
+	min-height: 200rpx;
+	margin: 30rpx auto;
+	border-radius: 10rpx;
+	border: 1rpx solid rgb(198,165,233);
+}
+.my_activity_today_title{
+	width: 100%;
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 31rpx;
+	font-weight: 550;
+	text-align: center;
+	letter-spacing: 3rpx;
+	color: rgb(198,165,233);
+	margin-bottom: 30rpx;
+}
+.my_activity_today_text{
+	width: 95%;
+	font-size: 30rpx;
+	margin: 5rpx auto;
+	height: 50rpx;
+	line-height: 50rpx;
+	color: rgb(198,165,233);
+	text-align: center;
+}
+.my_activity_history{
+	width: 92%;
+	height: 70rpx;
+	margin: 5rpx auto;
+}
+.my_img{
+	width: 10%;
+	height:100%;
+	float: left;
+}
+.my_img image{
+	width: 50rpx;
+	height: 50rpx;
+	float: left;
+	padding-left: 5rpx;
+	padding-top: 10rpx;
+}
+.my_text{
+	padding-left: 5%;
+	width: 80%;
+	float: left;
+	font-size: 30rpx;
+	line-height: 70rpx;
+	border-bottom: 1rpx solid rgb(198,165,233);
+	color: rgb(198,165,233);
+}
+.my_right{
+	width: 5%;
+	height:100%;
+	float: right;
+}
+.my_right image{
+	width: 40rpx;
+	height: 40rpx;
+	float: left;
+	padding-top: 16rpx;
+}
+.my_activity_trends{
+	width: 92%;
+	height: 70rpx;
+	margin: 10rpx auto;
+}
+.others{
+	width: 92%;
+	height: 340rpx;
+	background-color: white;
+	margin: 20rpx auto;
+	margin-top: 15rpx;
+	border-radius: 10rpx;
+	box-shadow: 0 0 20px rgb(198 165 233 /20%);
+}
+.others_title{
+	width: 92%;
+	margin: 10rpx auto;
+	height: 60rpx;
+	font-size: 31rpx;
+	line-height: 60rpx;
+	font-weight: 550;
+	letter-spacing: 3rpx;
+	padding-left: 35rpx;
+	color: rgb(198,165,233);
+}
+.others_regard{
+	width: 92%;
+	height: 70rpx;
+	margin: 10rpx auto;
+	margin-top: 20rpx;
+}
+.others_contact{
+	width: 92%;
+	height: 70rpx;
+	margin: 10rpx auto;
+}
+.others_setup{
+	width: 92%;
+	height: 70rpx;
+	margin: 10rpx auto;
+  margin-bottom: 30rpx;
+}
+.my_logo_no{
+	width: 92%;
+	height: 180rpx;
+	margin: 10rpx auto ;
+}
+.my_logo_left{
+	width: 72%;
+	height: 200rpx;
+	float: left;
+}
+.my_logo_title{
+	font-size: 40rpx;
+	margin-left: 30rpx;
+	margin-top: 20rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: rgb(198,165,233);
+}
+.my_logo_t{
+	font-size: 26rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	margin-left: 30rpx;
+	color: rgb(198,165,233);
+}
+.my_logo_right{
+	width: 23%;
+	float: left;
+	margin-top: 62rpx;
+	height: 55rpx;
+	line-height: 55rpx;
+	border: 1rpx solid rgb(198,165,233);
+	border-radius: 50rpx;
+}
+.my_logo_right_text{
+	font-size: 30rpx;
+	text-align: center;
+	color: rgb(198,165,233);
+}

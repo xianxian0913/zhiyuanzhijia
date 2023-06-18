@@ -1,0 +1,111 @@
+<!--pages/me/me.wxml-->
+<view class="my_logo" wx:if="{{user!=''}}">
+	<view class="my_logo_portrait">
+		<image style="width: 180rpx;height: 180rpx;" src="{{user.portrait}}" mode="scaleToFill"></image>
+	</view>
+	<view class="my_logo_text">
+		<view class="name_logo" >
+			<image src="../../images/women.png" mode="scaleToFill" wx:if="{{user.sex=='女'}}"></image>
+			<image src="../../images/man.png" mode="scaleToFill" wx:if="{{user.sex!='女'}}"></image>
+		</view>
+		<view class="my_logo_name">{{user.name}}</view>
+		<view class="telephone_logo" >
+			<image src="../../images/telephone.png" mode="scaleToFill"></image>
+		</view>
+		<view class="my_logo_telephone">{{user.telephone}}</view>
+		<view class="profile_logo" >
+			<image src="../../images/profile.png" mode="scaleToFill"></image>
+		</view>
+		<view class="my_logo_profile">{{user.profile}}</view>
+	</view>
+</view>
+<view class="my_logo_no" wx:if="{{user==''}}">
+	<view class="my_logo_left">
+		<view class="my_logo_title">Hi，小可爱</view>
+		<view class="my_logo_t">开启志愿之家的世界，一起助力志愿吧~</view>
+	</view>
+	<view class="my_logo_right">
+		<view class="my_logo_right_text" bindtap="login">
+			立即登录
+		</view>
+	</view>
+</view>
+<view class="my_activity">
+	<view class="my_activity_today">
+		<view class="my_activity_today_title">我的今日活动</view>
+		<view class="my_activity_today_text" wx:if="{{activity.length==0}}">您今日没有活动哦~</view>
+		<view wx:if="{{activity.length!=0}}" wx:for="{{activity}}" wx:for-item="item" wx:key="_id" bindtap="zyhd" id="{{item._id}}">
+			<view class="my_activity_today_text" >{{item.activity_title}}</view>
+		</view>
+	</view>
+	<view class="my_activity_history">
+		<view class="my_img">
+			<image src="../../images/my_activity_history.png"></image>
+		</view>
+		<view class="my_text" bindtap="activity_history">历史志愿活动</view>
+		<view class="my_right">
+			<image src="../../images/right.png"></image>
+		</view>
+	</view>
+	<view class="my_activity_trends">
+		<view class="my_img">
+			<image src="../../images/trends.png"></image>
+		</view>
+		<view class="my_text" bindtap="my_dynamic">我的志愿动态</view>
+		<view class="my_right">
+			<image src="../../images/right.png"></image>
+		</view>
+	</view>
+	<view class="gly" wx:if="{{user!=''&&user.gly==true}}">
+		<view class="my_activity_trends">
+			<view class="my_img">
+				<image src="../../images/news_manage.png"></image>
+			</view>
+			<view class="my_text" bindtap="news_manage">公告通知管理</view>
+			<view class="my_right">
+				<image src="../../images/right.png"></image>
+			</view>
+		</view>
+		<view class="my_activity_trends">
+			<view class="my_img">
+				<image src="../../images/activity_manage.png"></image>
+			</view>
+			<view class="my_text" bindtap="activity_manage">志愿活动管理</view>
+			<view class="my_right">
+				<image src="../../images/right.png"></image>
+			</view>
+		</view>
+	</view>
+</view>
+<view class="others">
+	<view class="others_title">
+		其它服务
+	</view>
+	<view class="others_regard">
+		<view class="my_img">
+			<image src="../../images/regard.png"></image>
+		</view>
+		<view class="my_text" bindtap="regard">关于我们</view>
+		<view class="my_right">
+			<image src="../../images/right.png"></image>
+		</view>
+	</view>
+	<view class="others_contact">
+		<view class="my_img">
+			<image src="../../images/contact.png"></image>
+		</view>
+		<view class="my_text" bindtap="contact">联系我们</view>
+		<view class="my_right">
+			<image src="../../images/right.png"></image>
+		</view>
+	</view>
+	<view class="others_setup">
+		<view class="my_img">
+			<image src="../../images/setup.png"></image>
+		</view>
+		<view class="my_text" bindtap="setup">设置</view>
+		<view class="my_right">
+			<image src="../../images/right.png"></image>
+		</view>
+	</view>
+</view>
